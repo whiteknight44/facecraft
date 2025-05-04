@@ -23,6 +23,23 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+
+
+        <style>
+            .zoom-img {
+                width: 300px;
+                height: 400px;
+                object-fit: cover;
+                transition: transform 0.4s ease;
+                border-radius: 20px; /* Makes the image curved */
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Optional: adds soft shadow */
+            }
+        
+            .zoom-img:hover {
+                transform: scale(1.1);
+            }
+        </style>
     </head>
 
     <body>
@@ -46,7 +63,8 @@
                             <div class="row justify-content-center mb-4">
                                 <div class="col-md-6 text-center">
                                     <!-- Replace 'party-makeup.jpg' with the actual path to your image -->
-                                    <img src="img/partymakeup.jpg" alt="Party Makeup" class="img-fluid rounded">
+                                    <img src="img/partymakeup.jpg" alt="Party Makeup" class="zoom-img">
+                                 
                                 </div>
                             </div>
         
@@ -67,15 +85,88 @@
                                 </div>
                             </div>
                         </div> <!-- #haircut -->
+
+
+
+
+
+
+                     <div class="tab-content">
+                       
                     </div> <!-- .tab-content -->
                 </div> <!-- .menu-tab -->
+         
+          
             </div> <!-- .container -->
+
+
+            <div class="menu">
+                <div class="container">
+                    
+                    <div class="menu-tab">
+                        <ul class="nav nav-pills justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="pill" href="#haircut"> Engagement Makeup </a>
+                            </li>
+                        </ul>
+            
+                        <div class="tab-content">
+                            <div id="haircut" class="container tab-pane active">
+                                <div class="row justify-content-center mb-4">
+                                    <div class="col-md-6 text-center">
+                                        <!-- Replace 'party-makeup.jpg' with the actual path to your image -->
+                                        <img src="img/partymakeup.jpg" alt="Party Makeup" class="img-fluid rounded">
+                                    </div>
+                                </div>
+            
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-12">
+                                        <div class="menu-item">
+                                            <div class="menu-text">
+                                                <h3><span>HAIR CUT (BABY)</span> <strong>249</strong></h3>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="menu-item">
+                                            <div class="menu-text">
+                                                <h3><span>HAIR CUT + WASH + BLAST DRY (REGULAR)</span> <strong>499</strong></h3>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- #haircut -->
+    
+    
+    
+    
+    
+    
+                         <div class="tab-content">
+                           
+                        </div> <!-- .tab-content -->
+                    </div> <!-- .menu-tab -->
+             
+              
+                </div> <!-- .container -->
+
+
         </div> <!-- .menu -->
         
 
 
 
        
+
+
+
+
+
+
+
+
+
+
         
         <!-- Menu Start -->
         <div class="menu">
@@ -103,23 +194,8 @@
                             </div>
                         </div>
                                 <div class="col-lg-7 col-md-12">
-                                    <div class="menu-item">
-                                        
-                                        <div class="menu-text">
-                                            <h3><span> HAIR CUT (BABY) 
-
-                                            </span> <strong> 249  </strong></h3>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                       
-                                        <div class="menu-text">
-                                            <h3><span>  HAIR CUT + WASH + BLAST DRY (REGULAR) 
-                                            </span> <strong> 499 </strong></h3>
-                                            <p>  </p>
-                                        </div>
-                                    </div>
+                                    
+                                   
                               
                              
                             </div>
